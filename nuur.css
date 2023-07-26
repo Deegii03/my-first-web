@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+
+  font-family: "Fasthand", cursive, Arial, Helvetica, sans-serif;
+  background-image: none;
+}
+.image-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: white;
+  height: 70vh;
+  margin-inline: 2vw;
+  background-size: cover;
+  background-image: url(./assets/alif-ngoylung-jg-6ARMiaPM-unsplash.jpg);
+  transition: transform 0.5s
+}
+
+.image-card:hover{
+  transform: scale(1.1);
+}
+
+
+.img-2 {
+  background-image: url(./assets/reinhart-julian-WxM465oM4j4-unsplash.jpg);
+}
+.img-3 {
+  background-image: url(./assets/the-nigmatic-YefEvN5CDLY-unsplash.jpg);
+}
+
+.nuur{
+  color:white ;
+}
